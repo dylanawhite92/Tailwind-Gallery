@@ -1,4 +1,8 @@
+import { useState, useEffect } from "react";
+
 function App() {
+  const [images, setImages] = useState([]);
+
   return (
     <div class="max-w-sm rounded overflow-hidden shadow-lg">
       <img src="https://source.unsplash.com/random" alt="" className="w-full"/>
