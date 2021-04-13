@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div>
-      hey lol
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img src="https://source.unsplash.com/random" alt="" className="w-full"/>
     </div>
   );
 }
